@@ -7,6 +7,8 @@ From ubuntu:14.04
 RUN apt-get update -q
 RUN apt-get install -qy curl
 RUN apt-get install -qy unicorn
+RUN apt-get install -qy nodejs
+
 # Install rvm, ruby, bundler
 RUN gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
 RUN curl -sSL https://get.rvm.io | bash -s stable
