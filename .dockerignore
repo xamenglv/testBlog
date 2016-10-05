@@ -1,0 +1,16 @@
+# .dockerignore
+
+# Ignore bundler config.
+/.bundle
+
+# Ignore the default SQLite database.
+/db
+
+# Ignore all logfiles and tempfiles.
+/log
+/tmp
+
+# Gemfile.lock
+
+# Redis
+dump.rdb
